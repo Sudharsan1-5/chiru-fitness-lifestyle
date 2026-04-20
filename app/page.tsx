@@ -78,20 +78,31 @@ export default function Home() {
       <section className="relative min-h-[100svh] flex flex-col justify-center px-5 py-12">
         <div className="absolute inset-0 bg-gradient-to-b from-primary/10 via-transparent to-transparent pointer-events-none" />
         
+      
+        
         <div className="relative z-10 max-w-lg mx-auto w-full">
-          <div className="mb-6">
+          {/* Brand Logo */}
+          <div className="flex justify-center mb-6">
+            <img 
+              src="/logo.jpeg" 
+              alt="Chiru Fitness Lifestyle" 
+              className="w-20 h-20 object-contain rounded-full border-2 border-primary/30 bg-white/90 p-1"
+            />
+          </div>
+          
+          <div className="mb-6 text-center">
             <span className="inline-block px-3 py-1 text-xs font-semibold tracking-wider uppercase bg-primary/20 text-primary rounded-full">
               Limited Time Offer
             </span>
           </div>
           
-          <h1 className="text-4xl sm:text-5xl font-bold leading-tight text-balance mb-4">
+          <h1 className="text-4xl sm:text-5xl font-bold leading-tight text-balance mb-4 text-center">
             <span className="text-primary">Fat to Fit</span>
             <br />
             Transformation Programme
           </h1>
           
-          <div className="flex flex-wrap gap-3 text-sm text-muted-foreground mb-6">
+          <div className="flex flex-wrap justify-center gap-3 text-sm text-muted-foreground mb-6">
             <span className="flex items-center gap-1.5">
               <Check className="w-4 h-4 text-primary" />
               No Gym Required
@@ -262,9 +273,16 @@ export default function Home() {
             </Button>
           </div>
           
-          <p className="text-xs text-muted-foreground mt-6">
-            © 2026 Chiru Fitness Lifestyle. All rights reserved.
-          </p>
+           <div className="mt-8 flex flex-col items-center gap-2">
+            <img 
+              src="/logo.jpeg" 
+              alt="Chiru Fitness Lifestyle" 
+              className="w-12 h-12 object-contain rounded-full bg-white/90 p-0.5 opacity-80"
+            />
+            <p className="text-xs text-muted-foreground">
+              © 2026 Chiru Fitness Lifestyle. All rights reserved.
+            </p>
+          </div>
         </div>
       </section>
 

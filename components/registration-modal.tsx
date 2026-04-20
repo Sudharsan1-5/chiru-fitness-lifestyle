@@ -71,7 +71,14 @@ Occupation: ${formData.occupation}`
           <X className="w-5 h-5" />
         </button>
         
-        <h2 className="text-2xl font-bold text-primary mb-6">Start Your Transformation</h2>
+        <div className="flex items-center gap-3 mb-6">
+          <img 
+            src="/logo.jpeg" 
+            alt="Chiru Fitness Lifestyle" 
+            className="w-12 h-12 object-contain rounded-full bg-white/90 p-0.5"
+          />
+          <h2 className="text-2xl font-bold text-primary">Start Your Transformation</h2>
+        </div>
         
         <form onSubmit={handleSubmit} className="space-y-5">
           <div className="space-y-2">

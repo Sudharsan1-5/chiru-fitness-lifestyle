@@ -11,21 +11,8 @@ export const metadata: Metadata = {
   description: 'Transform your body with our 100% home workout program. No gym required. Simple Indian diet plan. Join now at ₹999.',
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+     icon: '/logo.jpeg',
+    apple: '/logo.jpeg',
   },
 }
 
