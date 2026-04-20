@@ -50,7 +50,7 @@ Goal: ${formData.goal}
 Occupation: ${formData.occupation}`
 
     const encodedMessage = encodeURIComponent(message)
-    const whatsappUrl = `https://wa.me/919876543210?text=${encodedMessage}`
+    const whatsappUrl = `https://wa.me/917702316407?text=${encodedMessage}`
     window.open(whatsappUrl, "_blank")
     onClose()
   }
